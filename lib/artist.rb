@@ -23,7 +23,7 @@ class Artist
   
   # Collects genres of songs
   def genres 
-    
+    songs.collect { |song| song.genre }
   end 
   
 end 
